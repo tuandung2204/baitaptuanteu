@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class bai2 {
+    private static Scanner scanner = new Scanner(System.in);
+    public static void main(String[]args){
+        System.out.println("Nhập n = ");
+        int n=scanner.nextInt();
+        System.out.printf("%d số nguyên tố đầu tiên là : \n", n);
+        int dem = 0; // đếm số nguyên tố
+        int i = 2; // tìm số nguyên tố bắt đầu từ 2 vì số nhỏ hơn 2 không phải số nguyên tố
+        while (dem < n){
+            if (isPrimeNumber(i)){
+                System.out.print(i + "");
+                dem++;
+            }
+            i++;
+        }
+    }
+    public static boolean isPrimeNumber(int n){
+    if (n < 2){
+        return false;
+    }
+    // kiểm tra số nguyên tố với n>= 2
+        else {
+            for (int i=2;i<=n/2;i++) {
+                if (n % i == 0)
+                    return false;
+            }
+            return true;
+            }
+    }
+}

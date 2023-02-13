@@ -1,0 +1,105 @@
+*{
+    background-color:rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+
+a{  color: #4377a760;
+    text-decoration: none;
+}
+
+ul{
+    font-weight: 800;
+    color: #f50b0b;
+    list-style: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+#tuan4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.tuan4-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tuan4-box span{
+    color: black;
+    font-weight: 600;
+}
+.tuan4-box h3{
+    font-size: 2.4rem;
+    color: #071a50;
+    font-weight: 1000;
+}
+.tuan4-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.tuan4-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    
+    border: 1px solid black;
+    margin: 20px;
+}
+.tuan4-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.tuan4-text p{
+    color: black;
+    font-size:20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+	background-color:#ff5bb0;
+	border-radius:6px;
+	border:1px solid #ee1eb5;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c70067;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+	background-color:#ef027d;
+}
+

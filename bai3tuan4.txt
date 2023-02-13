@@ -1,0 +1,22 @@
+public class bai3 {
+    public static void main(String[]args){
+        for (int i=1000;i <=2000;i++){
+        if (timSoNguyenTo(i))
+            System.out.println((i));
+
+    }
+}
+    public static boolean timSoNguyenTo(int n ){
+        if (n < 2){
+            return false;
+        }
+        // kiểm tra số nguyên tố với n>= 2
+        else {
+            for (int i=2;i<=n/2;i++) {
+                if (n % i == 0)
+                    return false;
+            }
+            return true;
+        }
+    }
+}
